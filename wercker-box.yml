@@ -1,7 +1,7 @@
 name : nodejs
 version : 1.4.1
 description: Latest NodeJS version
-inherits : wercker/ubuntu12.04-nodejs0.10@1.6.1
+inherits : team-lockr/ubuntu12.04-nodejs0.10@1.6.1
 type : main
 platform : ubuntu@12.04
 keywords:
@@ -35,4 +35,3 @@ default-build:
               code: |
                 echo "node version $(node -v) running"
                 echo "npm version $(npm -v) running"
-
